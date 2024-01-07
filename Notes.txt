@@ -20,6 +20,19 @@ git add --all = git trackes all files in folder
 
 git add readme.md  only tracks that files
 
+git commit = tells git why commited
+
+whenever why commit git stores in it's history
+
+git commit -m ""  -m means message
+
+git log = commit history
+
+give a meaningful commit
+
+git log --oneline  
+
+
 
 
 
