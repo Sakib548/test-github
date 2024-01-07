@@ -84,7 +84,13 @@ git stash apply = stash id
 
 
 
+#.gitignore
 
+#to remove from tracking =  git rm --cached abcd.txt
+
+#git diff .gitignore
+
+#git push -u origin main  --adding local repo to remote repo
 
 
 
