@@ -92,6 +92,14 @@ git stash apply = stash id
 
 #git push -u origin main  --adding local repo to remote repo
 
+pushing another branch
+git push origin feature/add-heading-text
+
+
+Cloning
+git clone https://github.com/Sakib548/CVs.git  
+
+
 
 
 
