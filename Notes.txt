@@ -48,6 +48,43 @@ git branch --list
 #Creating a new Branch = git branch dev/add-heading-text
 #Switching branches = git switch dev/add-heading-text
 
+Merging branches
+
+git branch "branchName" =  git merge dev/add-heading-text
+
+git branch -d dev/add-heading-text  = will delete branch. give us a warning if changes remain uncommited
+git branch -D dev/add-heading-text  = will delete branch. will not give us a warning if changes remain uncommited
+
+Renaming Branch
+@First switch to that branch
+git branch -m feature/add-heading-text
+
+
+Merge conflict 
+
+<<<<<<< HEAD
+Practice
+=======
+Demos
+>>>>>>> feature/add-heading-text
+
+<<<<<<< HEAD
+Practice
+=======    means it is in my branch
+
+Demos
+>>>>>>> feature/add-heading-text  means it is from incoming branch
+
+
+
+git stash  = store your uncommited changes
+
+git stash pop = apply the latest stash
+git stash apply = stash id
+
+
+
+
 
 
 
