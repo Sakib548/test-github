@@ -32,6 +32,22 @@ give a meaningful commit
 
 git log --oneline  
 
+#To revert a commit 
+git reset --hard 1cbb2d9  
+
+git reflog Reference logs, or "reflogs", record when the tips of branches and other references were updated in the local repository. Reflogs are useful in various Git commands, to specify the old value of a reference
+
+It can be used to revert a reset
+ 
+
+ git rm help.md  remove a file
+
+
+git branch --list
+
+#Creating a new Branch = git branch dev/add-heading-text
+#Switching branches = git switch dev/add-heading-text
+
 
 
 
