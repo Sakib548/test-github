@@ -1,0 +1,26 @@
+Working Directory - The folder i am currently working on
+
+CRLF = Carriage return Line Feed /r/n  (Windows handles this best)
+git config --list
+
+# Setting User name --  git config --global user.name "Sakib548"
+# Setting User email -- git config --global user.email "mdsakibhassan548@gmail.com"
+
+pwd -- present working directory
+
+#touch readme.md -- creating a new file
+
+# git init  --initialize git repository
+
+-ls -a -- list all files including hidden files
+
+Untracked files = git does not track those files
+
+git add --all = git trackes all files in folder
+
+git add readme.md  only tracks that files
+
+
+
+
+
